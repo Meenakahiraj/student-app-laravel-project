@@ -10,6 +10,7 @@
 <body>
 <div class="container">
 <div class="row">
+<div class="row">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
@@ -26,40 +27,28 @@
   </div>
 </nav>
 </div>
-<div class="row">
+<div class="col col-12 col-sm-4 col-md-4"></div>
 <div class="col col-12 col-sm-4 col-md-4">
-</div>
-<div class="col col-12 col-sm-4 col-md-4"><br><br><br><br>
 <table class="table">
-    <tr>
-        <td>Name</td>
-        <td><input type="text" class="form-control"></td>
-    </tr>
-
-    <tr>
-        <td>roll no</td>
-        <td><input type="text" class="form-control"></td>
-    </tr>
-
-    <tr>
-        <td>adno</td>
-        <td><input type="text" class="form-control"></td>
-    </tr>
-
-    <tr>
-        <td>college</td>
-        <td><input type="text" class="form-control"></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td><botton class="btn btn-info">Register</botton></td>
-    </tr>
+<tr>
+    <td>Name</td>
+    <td><input type="text" class="form-control"></td>
+</tr>
+<tr>
+    <td>Message</td>
+    <td><textarea name="" id="" cols="30" rows="10" class="form-control"></textarea></td>
+</tr>
+<tr>
+    <td>Phno</td>
+    <td><input type="text" class="form-control"></td>
+</tr>
+<tr>
+    <td></td>
+    <td><buttob class="btn btn-info">Submit</buttob></td>
+</tr>
 </table>
 </div>
-<div class="col col-12 col-sm-4 col-md-4">
-</div>
-</div>
+<div class="col col-12 col-sm-4 col-md-4"></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
